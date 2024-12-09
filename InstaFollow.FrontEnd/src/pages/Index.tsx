@@ -48,57 +48,63 @@ const Index = () => {
   };
 
   return (
-    <div className="h-screen flex justify-center items-center">
-      <div className="bg-slate-200 xl:w-3/5 w-4/5 h-5/6 rounded-xl shadow-md p-5">
-        <div className="upper-div flex md:flex-row flex-col md:gap-0 gap-2 justify-between">
-          <div className="flex flex-col">
-            <label>Followers List:</label>
+    <div className="container-div h-screen flex justify-center items-center p-4">
+      <div className="bg-gray-200 w-full max-w-4xl h-full max-h-[99%] rounded-xl shadow-md p-5 flex flex-col">
+        <div className="upper-div flex flex-col sm:flex-row md:gap-6 gap-2 justify-between mb-2">
+          <div className="flex flex-col w-full min-w-[250px]">
+            <label className="font-semibold mb-2">Followers List:</label>
             <input
               type="file"
               accept=".json"
               onChange={handleFollowersFileChange}
+              className="p-2 border border-gray-400 rounded"
             />
           </div>
-          <div className="flex flex-col">
-            <label>Following List:</label>
+          <div className="flex flex-col w-full min-w-[250px]">
+            <label className="font-semibold mb-2">Following List:</label>
             <input
               type="file"
               accept=".json"
               onChange={handleFollowingFileChange}
+              className="p-2 border border-gray-400 rounded"
             />
           </div>
         </div>
 
-        <div className="buttons-div mt-4 flex flex-row justify-evenly">
+        <div className="buttons-div flex justify-start">
           <button
             onClick={handleSubmit}
-            className="border border-black w-2/5 py-1 rounded bg-black text-white hover:bg-slate-700 transition-all duration-300"
+            className="border border-black px-4 py-2 rounded bg-black text-white hover:bg-slate-700 transition-all duration-300"
           >
             Submit
           </button>
         </div>
 
-        <div className="lower-div border mt-4">
+        <div className="lower-div mt-3 flex-grow overflow-hidden">
           <div>
-            <h1 className="text-center lg:text-2xl font-semibold">Followers Not Following You Back</h1>
-            <p className="text-center">Total Count: {counts}</p>
+            <h1 className="text-center text-xl lg:text-2xl font-semibold">Followers Not Following You Back</h1>
+            <p className="text-center text-sm lg:text-base">Total Count: {counts}</p>
           </div>
 
-          <div className="border border-slate-400 text-sm xl:text-base  rounded-md overflow-y-auto mt-4 max-h-80 md:max-h-96 custom-scrollbar">
-            {/* max-h-96 limits the table height */}
+          <div className="border border-slate-400 rounded-md overflow-y-auto mt-4 max-h-[85%] sm:max-h-[87%] custom-scrollbar">
             <table className="w-full table-auto">
-              <thead className="bg-gray-200">
+              <thead className="bg-gray-300">
                 <tr>
-                  <th className="px-4 py-2 text-left font-medium text-gray-700">Username</th>
-                  <th className="px-4 py-2 text-left font-medium text-gray-700 border-l border-black">Link</th> {/* Added border-l here */}
+                  <th className="px-4 py-2 text-left font-bold text-gray-700">Username</th>
+                  <th className="px-4 py-2 text-left font-bold text-gray-700 border-l border-gray-500">Link</th>
                 </tr>
               </thead>
               <tbody>
                 {users.map((user, index) => (
-                  <tr key={index} className="border-t border-black hover:bg-gray-50">
+                  <tr key={index} className="border-t border-gray-400 hover:bg-gray-50">
                     <td className="px-4 py-2">{user.username}</td>
-                    <td className="px-4 py-2 border-l border-black">
-                      <a href={user.profileLink} target="_blank" rel="noopener noreferrer" className="text-blue-500">
+                    <td className="px-4 py-2 border-l border-gray-500">
+                      <a
+                        href={user.profileLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500"
+                      >
                         {user.profileLink}
                       </a>
                     </td>
