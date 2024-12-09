@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\.Projects\\DotNetOnly\\InstaFollow\\",
+  "WorkspaceRootPath": "E:\\.Projects\\InstaFollow(.NET-React)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C3DCC41-38B5-4B37-87C1-7A3EBF05F586}|InstaFollow.API\\InstaFollow.API.csproj|e:\\.projects\\dotnetonly\\instafollow\\instafollow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C3DCC41-38B5-4B37-87C1-7A3EBF05F586}|InstaFollow.API\\InstaFollow.API.csproj|e:\\.projects\\instafollow(.net-react)\\instafollow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C3DCC41-38B5-4B37-87C1-7A3EBF05F586}|InstaFollow.API\\InstaFollow.API.csproj|solutionrelative:instafollow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,13 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\.Projects\\DotNetOnly\\InstaFollow\\InstaFollow.API\\Program.cs",
+              "DocumentMoniker": "E:\\.Projects\\InstaFollow(.NET-React)\\InstaFollow.API\\Program.cs",
               "RelativeDocumentMoniker": "InstaFollow.API\\Program.cs",
-              "ToolTip": "E:\\.Projects\\DotNetOnly\\InstaFollow\\InstaFollow.API\\Program.cs",
+              "ToolTip": "E:\\.Projects\\InstaFollow(.NET-React)\\InstaFollow.API\\Program.cs",
               "RelativeToolTip": "InstaFollow.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T05:23:39.587Z",
+              "WhenOpened": "2024-12-09T07:47:14.632Z",
               "EditorCaption": ""
             }
           ]
