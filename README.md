@@ -71,8 +71,7 @@ root
 3. **Run the Application**  
    ```bash  
    dotnet run  
-   ```  
-   The Web API will be available at `https://localhost:5001` or `http://localhost:5000`.  
+   ```
 
 4. **Test the API**  
    Use tools like [Postman](https://www.postman.com) or [cURL](https://curl.se/) to test the API.  
