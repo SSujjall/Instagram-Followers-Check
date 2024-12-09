@@ -25,7 +25,8 @@ Instagram provides an option to download your account data, including "Followers
 1. **Request Your Data**  
    - Open the Instagram app or go to the [Instagram website](https://www.instagram.com).  
    - Navigate to **Settings > Privacy and Security > Data Download**.  
-   - Request a copy of your data. Instagram will email you a download link.  
+   - Request a copy of your data. Instagram will email you a download link.
+   - NOTE: You need to download the data in json format.
 
 2. **Download and Extract the Data**  
    - Once you receive the email, download the ZIP file and extract its contents.  
