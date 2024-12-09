@@ -117,11 +117,4 @@ root
 ## Technologies Used  
 - **Backend**: .NET 8 (Web API)  
 - **Frontend**: React with TypeScript  
-- **API Testing**: Postman  
-
---- 
-
-## Contact  
-For any queries or issues, feel free to reach out:  
-- Email: [Your Email]  
-- GitHub: [Your GitHub Profile]  
+- **API Testing**: Postman   
